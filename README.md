@@ -22,7 +22,7 @@ wget https://cli-assets.heroku.com/heroku-cli/channels/stable/heroku-cli-linux-x
 tar -xvzf heroku.tar.gz
 ```
 
-* make sure parent directorys exist, make them if they don't /usr/local/lib and /usr/local/bin no errors if exiisting
+* make sure parent directories exist, make them if they don't /usr/local/lib and /usr/local/bin no errors if exiisting
 
 ```
 mkdir -p /usr/local/lib /usr/local/bin
