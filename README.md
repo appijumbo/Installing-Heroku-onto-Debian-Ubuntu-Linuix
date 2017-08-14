@@ -6,9 +6,7 @@
 cd ~/Downloads
 ```
 
-2) Check uname -m, find if X86_64 or X86; and make a note of it. 
-
-If say x64 then
+2) Check uname -m, find if X86_64 or X86; and make a note of it (assumed x64 for this description) 
 
 3) get the x64 from the website url ie wget
 
