@@ -1,5 +1,9 @@
 # Heroko Command Line Installation for Linux Ubuntu
 
+I had problems installing Heroku command line for Ubuntu Linux [using there one line installation](https://devcenter.heroku.com/articles/heroku-cli#debian-ubuntu) 
+I reverted to Heroku's linux installation alternative [standalone](https://devcenter.heroku.com/articles/heroku-cli#standalone) method which requires a bit more work, and decided to break down the steps a little more just in case it help someone out there.
+
+
 * Go into the Downloads directory
 
 ```
