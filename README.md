@@ -43,7 +43,7 @@ find ~/Downloads -name heroku-cli*
  
 ```
 
-8) Finally make a symbolic link
+8) Finally make a soft link
 
 ```
 sudo ln -s /usr/local/lib/heroku/bin/heroku /usr/local/bin/heroku
