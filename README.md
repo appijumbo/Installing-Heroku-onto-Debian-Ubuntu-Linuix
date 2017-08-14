@@ -35,13 +35,13 @@ find ~/Downloads -name heroku-cli*
 ```
 
 * as superuser, move the 'heroku-cli-XXXXXX' file into /usr/local/lib/heroku
+
+( just ensure you have a space before /usr/local.lib/heroku)
  
 ```
  sudo mv heroku-cli-v6.13.12-c65a3c3-linux-x64 /usr/local/lib/heroku
  
 ```
-
-( just ensure you have a space before /usr/local.lib/heroku)
 
 8) Finally make a symbolic link
 
