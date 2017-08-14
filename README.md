@@ -11,7 +11,7 @@ cd ~/Downloads
 uname -m
 ```
 
-* get the x64 from the website url ie wget
+* Assuming its X64 for this description, get the x64 from the website url using 'wget'
 
 ```
 wget https://cli-assets.heroku.com/heroku-cli/channels/stable/heroku-cli-linux-x64.tar.gz -O heroku.tar.gz
