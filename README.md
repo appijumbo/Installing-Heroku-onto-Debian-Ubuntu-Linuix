@@ -6,7 +6,7 @@
 cd ~/Downloads
 ```
 
-* Check uname -m, find if X86_64 or X86; and make a note of it (assumed x64 for this description) 
+* Check uname -m, find if X86_64 or X86; and make a note of it (X86_64 assumed for this description, or just x64 for short) 
 ```
 uname -m
 ```
