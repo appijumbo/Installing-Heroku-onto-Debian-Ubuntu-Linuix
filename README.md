@@ -52,3 +52,5 @@ find ~/Downloads -name heroku-cli*
 ```
 sudo ln -s /usr/local/lib/heroku/bin/heroku /usr/local/bin/heroku
 ```
+
+a bit messy; I might consider having a go at making this a shell script in future
