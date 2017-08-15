@@ -21,12 +21,12 @@ uname -m
 wget https://cli-assets.heroku.com/heroku-cli/channels/stable/heroku-cli-linux-x64.tar.gz -O heroku.tar.gz
 ```
 
-* extract the tarball
+* Extract the tarball
 ```
 tar -xvzf heroku.tar.gz
 ```
 
-* make sure parent directories exist, make them if they don't /usr/local/lib and /usr/local/bin no errors if existing
+* If /usr/local/lib and /usr/local/bin don't exist create them; if they do don't prompt an error
 
 ```
 mkdir -p /usr/local/lib /usr/local/bin
@@ -38,7 +38,7 @@ mkdir -p /usr/local/lib /usr/local/bin
 find ~/Downloads -name heroku-cli*
 ```
 
-* as superuser, move the 'heroku-cli-XXXXXX' file into /usr/local/lib/heroku
+* As superuser, move the 'heroku-cli-XXXXXX' file into /usr/local/lib/heroku
 
 ( just ensure you have a space before /usr/local.lib/heroku)
  
@@ -47,12 +47,13 @@ find ~/Downloads -name heroku-cli*
  
 ```
 
-8) Finally make a soft link
+Finally make a soft link
 
 ```
 sudo ln -s /usr/local/lib/heroku/bin/heroku /usr/local/bin/heroku
 ```
 
 
+-----
 
-a bit messy; I might consider having a go at making this a shell script in future
+A bit messy; I might consider having a go at making this a shell script in future
